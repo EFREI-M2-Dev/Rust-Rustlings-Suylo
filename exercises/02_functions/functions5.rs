@@ -1,6 +1,7 @@
 // TODO: Fix the function body without changing the signature.
 fn square(num: i32) -> i32 {
-    num * num;
+    // SOLUTION: si ajout du return, nécessaire de mettre le ; à la fin de la ligne, sinon pas besoin de return et retourner seulement la valeur
+    num * num
 }
 
 fn main() {
