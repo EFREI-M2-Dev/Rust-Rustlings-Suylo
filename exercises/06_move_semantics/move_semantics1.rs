@@ -1,6 +1,7 @@
 // TODO: Fix the compiler error in this function.
 fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
-    let vec = vec;
+    // SOLUTION: ajouter mutable car on push un nouvel element dedans
+    let mut vec = vec;
 
     vec.push(88);
 
